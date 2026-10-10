@@ -1,6 +1,6 @@
 ---
-title: 'チーム層で会話本文ログと入力検査を補う — Cloudflare を使ったネットワーク側の代替構成'
-description: 'Compliance API や入力の検査はエンタープライズ層の機能。ChatGPT Business や Claude Team でも、通信経路にゲートウェイを挟めば近い水準の記録と検査を構築できる。2つの構成と限界を解説する。'
+title: 'Enterprise プランなしで生成AIの会話を記録・検査する方法 — Cloudflare を使った構成と限界'
+description: '会話の記録（Compliance API）や入力の検査は、本来 Enterprise プランの機能。ChatGPT Business や Claude Team でも、通信経路にゲートウェイを挟めば近い水準の記録と検査を構築できる。2つの構成と限界を解説する。'
 pubDate: 2026-10-09
 order: 8
 category: 'ネットワーク・監査'
@@ -8,7 +8,7 @@ tags: ['Cloudflare', 'AI Gateway', 'Secure Web Gateway', 'DLP', '監査ログ']
 vendors: ['OpenAI', 'Anthropic', 'Google', 'Cloudflare']
 ---
 
-会話本文の取得（Compliance API、Vault）と入力の検査は、提供元の機能としてはエンタープライズ層に限られます。ただし、**通信経路に自社管理のゲートウェイを挟めば**、ChatGPT Business や Claude Team のようなチーム層でも、近い水準の記録と検査を構築できます。
+会話本文の取得（Compliance API、Vault）と入力の検査は、提供元の機能としては Enterprise プランに限られます。ただし、**通信経路に自社管理のゲートウェイを挟めば**、ChatGPT Business や Claude Team でも、近い水準の記録と検査を構築できます。
 
 ここでは Cloudflare を例にします。Netskope や Zscaler など他の製品でも考え方は同じです。
 

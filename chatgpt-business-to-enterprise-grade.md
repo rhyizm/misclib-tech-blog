@@ -96,7 +96,7 @@ Cloudflare Gateway の AI プロンプト保護は、ChatGPT・Gemini・Claude�
 - 社外ネットワークや私物端末は、ゲートウェイを通らない限り対象外です。
 - 通信の復号と本文の記録には、従業員への告知と規程の整備が前提になります。
 
-構成の詳細は[チーム層で会話本文ログと入力検査を補う](/blog/team-tier-network-logging/)で解説しています。
+構成の詳細は[Enterprise プランなしで生成AIの会話を記録・検査する方法](/blog/team-tier-network-logging/)で解説しています。
 
 ### テナント制限ヘッダは Business で使えるか
 

@@ -89,7 +89,7 @@ Cloudflare Gateway の AI プロンプト保護は、Claude を含む4つの生�
 
 2025年8月の公開時点ではオープンベータでした。デスクトップアプリとモバイルアプリは証明書ピンニングで復号できないことがあるため、アプリ用の通信を遮断してブラウザに寄せるか、前章の MDM 設定で組織を固定したうえで対象外と割り切ります。
 
-構成の詳細は[チーム層で会話本文ログと入力検査を補う](/blog/team-tier-network-logging/)で解説しています。
+構成の詳細は[Enterprise プランなしで生成AIの会話を記録・検査する方法](/blog/team-tier-network-logging/)で解説しています。
 
 ## 4. Claude Code は OpenTelemetry と MDM で統制する
 
